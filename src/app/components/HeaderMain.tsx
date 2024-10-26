@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react'
-import { BiUser } from 'react-icons/bi'
 import { BsSearch } from 'react-icons/bs'
 import { useRouter } from 'next/navigation'
 
@@ -35,9 +34,7 @@ const HeaderMain = () => {
           </button>
         </form>
 
-        <div className='hidden lg:flex gap-4 text-gray-500 text[30px]'>
-          <BiUser />
-        </div>
+
       </div> 
     </div>
   )

@@ -19,9 +19,6 @@ const Navbar = () => {
                 Features
                 </Link>
                 
-                <Link className='navbar__link relative' href="/contact">
-                Contact
-                </Link>
 
             </div>
         </div>
