@@ -9,11 +9,11 @@ const About = () => {
       </p>
       <p className="mb-4">
         At Game Space, we believe that gaming should be accessible to everyone, anywhere, anytime. 
-        That's why we've curated a collection of exciting mini-games that you can enjoy right in your browser.
+        That&apos;s why we&apos;ve curated a collection of exciting mini-games that you can enjoy right in your browser.
       </p>
       <p className="mb-4">
         Our team of passionate developers and game enthusiasts work tirelessly to bring you new and 
-        innovative games regularly. Whether you're looking for a quick break during work, waiting for a bus, 
+        innovative games regularly. Whether you&apos;re looking for a quick break during work, waiting for a bus, 
         or just want to challenge yourself, Game Space has something for you.
       </p>
       <p>
