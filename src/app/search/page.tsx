@@ -1,4 +1,5 @@
 "use client";
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import ProductCard from '../components/ProductCard';
 
@@ -131,7 +132,7 @@ const productData = [
   },
 ];
 
-export default function SearchResults() {
+function SearchResults() {
   const searchParams = useSearchParams();
   const query = searchParams.get('query');
 
@@ -159,5 +160,14 @@ export default function SearchResults() {
         <p>No games found matching your search.</p>
       )}
     </div>
+  );
+}
+
+// This is the main page or parent component where you render SearchResults
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SearchResults />
+    </Suspense>
   );
 }
